@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Marketry</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header-section__container">
+        <div class="header-section__left-wrapper">
+            <a href="index.html">
+                <img src="icons/marketry-logo.svg" class="logo" alt="логотип компании">
+            </a>
+        </div>
+        <div class="header-section__right-wrapper">
+            <p class="title"><a href="about.html">О НАС</a></p>
+            <p class="title"><a href="catalog.html">КАТАЛОГ</a></p>
+        </div>
+        <div class="button-form">
+            <button onclick="document.location='form.html'">Регистрация / Войти</button>
+        </div>
+        <div class="img-button">
+            <a href="form.html">
+                <img src="icons/профиль.svg" alt="иконка профиля">
+            </a>
+        </div>
+    </header>
+
+    <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <img src="img/слайд1.jpg" alt="слайд 1" class="slider__img">
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <img src="img/слайд2.jpg" alt="слайд 2" class="slider__img">
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <img src="img/слайд3.jpg" alt="слайд 3" class="slider__img">
+                        </div>
+                    </div>
+                    <div class="slide slide-4">
+                        <div class="slide-content">
+                            <img src="img/слайд4.jpg" alt="слайд 4" class="slider__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+
+    <div class="main-section__clients">
+        <p class="title">НАШИ КЛИЕНТЫ</p>
+        <div class="main-section__clients-all">
+            <img src="icons/лого-бмв.svg" alt="лого бмв" class="main-section__logo">
+            <img src="icons/лого-мб.svg" alt="лого mb" class="main-section__logo">
+            <img src="icons/лого-лукойл.svg" alt="лого лукойл" class="main-section__logo">
+        </div>
+    </div>
+
+    <footer class="footer-section__container">
+        <div class="footer-section__left-wrapper">
+            <a href="index.html">
+                <img src="icons/marketry-logo.svg" class="logo" alt="логотип компании">
+            </a>
+        </div>
+
+        <div class="footer-section__right-wrapper">
+            <p class="footer-section__text">Контактный номер: +7 (495) 514-00-78</p>
+            <p class="footer-section__text">Почта: info@marketry.ru</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
